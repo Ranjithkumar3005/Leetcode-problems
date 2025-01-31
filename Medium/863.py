@@ -40,5 +40,4 @@ class Solution:
                         queue.append(nei)
 
             distance += 1
-
         return []
