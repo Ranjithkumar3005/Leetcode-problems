@@ -13,6 +13,6 @@ class Solution:
             if complement in h:
                 c += h[complement]  # Add count of complements found
 
-            h[val] = h.get(val, 0) + 1  # Update remainder count
+            h[val] = h.get(val, 0) + 1
 
         return c
