@@ -11,7 +11,7 @@ class Solution:
             complement = (60 - val) % 60  # Find the required remainder
 
             if complement in h:
-                c += h[complement]  # Add count of complements found
+                c += h[complement]
 
             h[val] = h.get(val, 0) + 1
 
