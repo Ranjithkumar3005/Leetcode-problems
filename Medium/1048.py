@@ -14,7 +14,6 @@ class Solution:
             dp[word] = 1
             for i in range(len(word)):
                 substring = word[:i] + word[i + 1 :]
-                # dp[word] = max(dp[word], dp.get(substring, 0)+1)
                 if substring in dp:
                     dp[word] = max(dp[word], 1 + dp[substring])
             res = max(res, dp[word])
