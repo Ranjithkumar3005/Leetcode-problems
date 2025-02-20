@@ -36,6 +36,6 @@ class Solution:
                 max_sum = level_sum
                 ans = level
 
-            level += 1  # Move to the next level
+            level += 1
 
         return ans
