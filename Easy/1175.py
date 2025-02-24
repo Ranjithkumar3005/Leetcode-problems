@@ -1,7 +1,6 @@
 class Solution(object):
     def numPrimeArrangements(self, n):
         num = 0
-
         for i in range(2, n + 1):
             c = 0
             for j in range(2, i):
