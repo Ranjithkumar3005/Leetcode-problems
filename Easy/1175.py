@@ -18,6 +18,3 @@ class Solution(object):
         for i in range(num1, 0, -1):
             val2 *= i
         return (val1 * val2) % (10**9 + 7)
-
-
-#
