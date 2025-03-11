@@ -12,3 +12,6 @@ class Solution(object):
             if n in dict and dict[n] != i:
                 return [i, dict[n]]
         return None
+
+
+#
