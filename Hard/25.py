@@ -30,4 +30,3 @@ class Solution:
             count -= k
 
         return dummy.next
-#
