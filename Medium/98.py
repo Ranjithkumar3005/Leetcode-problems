@@ -27,7 +27,7 @@ class Solution(object):
         return True
 
 
-# Sol 2
+# Sol 2.
 class Solution(object):
     def isValidBST(self, root):
         """
