@@ -49,3 +49,4 @@ class Solution:
                     result.append([r, c])
 
         return result
+#
