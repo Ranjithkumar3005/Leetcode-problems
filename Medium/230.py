@@ -5,7 +5,7 @@
 #         self.left = left
 #         self.right = right
 from collections import deque
-
+#
 
 class Solution(object):
     def kthSmallest(self, root, k):
