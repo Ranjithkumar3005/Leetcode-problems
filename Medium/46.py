@@ -17,3 +17,26 @@ class Solution(object):
             res.extend(perms)
             nums.append(n)
         return res
+
+
+from typing import List
+
+
+def permute(nums: List[int]) -> List[List[int]]:
+    def backtrack(temp):
+        if len(temp) == len(nums):
+            result.append(temp[:])  # Add a copy of temp to the result
+            return
+        for num in nums:
+            if num not in temp:  # Ensure uniqueness
+                temp.append(num)
+                backtrack(temp)
+                temp.pop()  # Backtrack
+
+    result = []
+    backtrack([])
+    return result
+
+
+nums = [1, 2, 3]
+print(permute(nums))
